@@ -1,0 +1,4 @@
+.vscode/
+c/*.so
+py/__pycache__/
+test/basic

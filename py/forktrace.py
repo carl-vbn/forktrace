@@ -8,7 +8,7 @@ import struct
 from graph import print_graph
 from session import TraceSession
 
-LIBPATH = "/home/carl-vbn/dev/forktrace/c/libforktrace.so"
+LIBPATH = str(pathlib.Path(__file__).resolve().parent.parent / "c" / "libforktrace.so")
 
 session = None
 
